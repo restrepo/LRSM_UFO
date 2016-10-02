@@ -1,0 +1,678 @@
+# This file was automatically created by FeynRules 2.3.24
+# Mathematica version: 9.0 for Linux x86 (64-bit) (November 20, 2012)
+# Date: Sun 2 Oct 2016 20:07:09
+
+
+# 
+# This is the logfile for the model LRSM
+
+# Authors: Adam Alloul, Benjamin Fuks, Michel Rausch de Traubenberg
+# Model version: 1.05
+# Checking the Quantum numbers
+   * Electric charge defined.
+# Checking the Lagrangians
+   * All Lagrangians are ok.
+#
+# Particle definitions
+#
+
+   * No particles removed. All particles correspond to GenInt setup.
+
+
+
+# Compulsory PDG codes:
+   * Class SM leptons complete.
+   * Class SM neutrinos complete.
+   * Class SM quarks complete.
+   * Class SM gauge bosons complete.
+#
+# Parameter definitions
+#
+
+   * All parameters are ok.
+
+
+# Vertices
+   * Calling FeynmanRules for 1 Lagrangians.
+   * Number of classes vertices: 4711
+   * Number of flavored vertices: 4711
+   * Saved vertices in InterfaceRun[ 1 ].
+   * Checked QNumber conservation.
+      - Quantum number Q NOT conserved in the following vertices
+          {GP1, dbar, u}
+          {GP2, dbar, u}
+          {H1, dbar, u}
+          {H2, dbar, u}
+          {GP1, dbar, c}
+          {GP2, dbar, c}
+          {H1, dbar, c}
+          {H2, dbar, c}
+          {GP1, dbar, t}
+          {GP2, dbar, t}
+          {H1, dbar, t}
+          {H2, dbar, t}
+          {GP1, sbar, u}
+          {GP2, sbar, u}
+          {H1, sbar, u}
+          {H2, sbar, u}
+          {GP1, sbar, c}
+          {GP2, sbar, c}
+          {H1, sbar, c}
+          {H2, sbar, c}
+          {GP1, sbar, t}
+          {GP2, sbar, t}
+          {H1, sbar, t}
+          {H2, sbar, t}
+          {GP1, bbar, u}
+          {GP2, bbar, u}
+          {H1, bbar, u}
+          {H2, bbar, u}
+          {GP1, bbar, c}
+          {GP2, bbar, c}
+          {H1, bbar, c}
+          {H2, bbar, c}
+          {GP1, bbar, t}
+          {GP2, bbar, t}
+          {H1, bbar, t}
+          {H2, bbar, t}
+          {GP1bar, ubar, d}
+          {GP2bar, ubar, d}
+          {H1bar, ubar, d}
+          {H2bar, ubar, d}
+          {GP1bar, ubar, s}
+          {GP2bar, ubar, s}
+          {H1bar, ubar, s}
+          {H2bar, ubar, s}
+          {GP1bar, ubar, b}
+          {GP2bar, ubar, b}
+          {H1bar, ubar, b}
+          {H2bar, ubar, b}
+          {GP1bar, cbar, d}
+          {GP2bar, cbar, d}
+          {H1bar, cbar, d}
+          {H2bar, cbar, d}
+          {GP1bar, cbar, s}
+          {GP2bar, cbar, s}
+          {H1bar, cbar, s}
+          {H2bar, cbar, s}
+          {GP1bar, cbar, b}
+          {GP2bar, cbar, b}
+          {H1bar, cbar, b}
+          {H2bar, cbar, b}
+          {GP1bar, tbar, d}
+          {GP2bar, tbar, d}
+          {H1bar, tbar, d}
+          {H2bar, tbar, d}
+          {GP1bar, tbar, s}
+          {GP2bar, tbar, s}
+          {H1bar, tbar, s}
+          {H2bar, tbar, s}
+          {GP1bar, tbar, b}
+          {GP2bar, tbar, b}
+          {H1bar, tbar, b}
+          {H2bar, tbar, b}
+          {GP1, ebar, Nebar}
+          {GP2, ebar, Nebar}
+          {H1, ebar, Nebar}
+          {H2, ebar, Nebar}
+          {GP1, ebar, Nmbar}
+          {GP2, ebar, Nmbar}
+          {H1, ebar, Nmbar}
+          {H2, ebar, Nmbar}
+          {GP1, ebar, Ntbar}
+          {GP2, ebar, Ntbar}
+          {H1, ebar, Ntbar}
+          {H2, ebar, Ntbar}
+          {GP1, ebar, vebar}
+          {GP2, ebar, vebar}
+          {H1, ebar, vebar}
+          {H2, ebar, vebar}
+          {GP1, ebar, vmbar}
+          {GP2, ebar, vmbar}
+          {H1, ebar, vmbar}
+          {H2, ebar, vmbar}
+          {GP1, ebar, vtbar}
+          {GP2, ebar, vtbar}
+          {H1, ebar, vtbar}
+          {H2, ebar, vtbar}
+          {GP1, mbar, Nebar}
+          {GP2, mbar, Nebar}
+          {H1, mbar, Nebar}
+          {H2, mbar, Nebar}
+          {GP1, mbar, Nmbar}
+          {GP2, mbar, Nmbar}
+          {H1, mbar, Nmbar}
+          {H2, mbar, Nmbar}
+          {GP1, mbar, Ntbar}
+          {GP2, mbar, Ntbar}
+          {H1, mbar, Ntbar}
+          {H2, mbar, Ntbar}
+          {GP1, mbar, vebar}
+          {GP2, mbar, vebar}
+          {H1, mbar, vebar}
+          {H2, mbar, vebar}
+          {GP1, mbar, vmbar}
+          {GP2, mbar, vmbar}
+          {H1, mbar, vmbar}
+          {H2, mbar, vmbar}
+          {GP1, mbar, vtbar}
+          {GP2, mbar, vtbar}
+          {H1, mbar, vtbar}
+          {H2, mbar, vtbar}
+          {GP1, tabar, Nebar}
+          {GP2, tabar, Nebar}
+          {H1, tabar, Nebar}
+          {H2, tabar, Nebar}
+          {GP1, tabar, Nmbar}
+          {GP2, tabar, Nmbar}
+          {H1, tabar, Nmbar}
+          {H2, tabar, Nmbar}
+          {GP1, tabar, Ntbar}
+          {GP2, tabar, Ntbar}
+          {H1, tabar, Ntbar}
+          {H2, tabar, Ntbar}
+          {GP1, tabar, vebar}
+          {GP2, tabar, vebar}
+          {H1, tabar, vebar}
+          {H2, tabar, vebar}
+          {GP1, tabar, vmbar}
+          {GP2, tabar, vmbar}
+          {H1, tabar, vmbar}
+          {H2, tabar, vmbar}
+          {GP1, tabar, vtbar}
+          {GP2, tabar, vtbar}
+          {H1, tabar, vtbar}
+          {H2, tabar, vtbar}
+          {GP1bar, Nebar, e}
+          {GP2bar, Nebar, e}
+          {H1bar, Nebar, e}
+          {H2bar, Nebar, e}
+          {GP1bar, Nebar, m}
+          {GP2bar, Nebar, m}
+          {H1bar, Nebar, m}
+          {H2bar, Nebar, m}
+          {GP1bar, Nebar, ta}
+          {GP2bar, Nebar, ta}
+          {H1bar, Nebar, ta}
+          {H2bar, Nebar, ta}
+          {GP1bar, Nmbar, e}
+          {GP2bar, Nmbar, e}
+          {H1bar, Nmbar, e}
+          {H2bar, Nmbar, e}
+          {GP1bar, Nmbar, m}
+          {GP2bar, Nmbar, m}
+          {H1bar, Nmbar, m}
+          {H2bar, Nmbar, m}
+          {GP1bar, Nmbar, ta}
+          {GP2bar, Nmbar, ta}
+          {H1bar, Nmbar, ta}
+          {H2bar, Nmbar, ta}
+          {GP1bar, Ntbar, e}
+          {GP2bar, Ntbar, e}
+          {H1bar, Ntbar, e}
+          {H2bar, Ntbar, e}
+          {GP1bar, Ntbar, m}
+          {GP2bar, Ntbar, m}
+          {H1bar, Ntbar, m}
+          {H2bar, Ntbar, m}
+          {GP1bar, Ntbar, ta}
+          {GP2bar, Ntbar, ta}
+          {H1bar, Ntbar, ta}
+          {H2bar, Ntbar, ta}
+          {GP1bar, vebar, e}
+          {GP2bar, vebar, e}
+          {H1bar, vebar, e}
+          {H2bar, vebar, e}
+          {GP1bar, vebar, m}
+          {GP2bar, vebar, m}
+          {H1bar, vebar, m}
+          {H2bar, vebar, m}
+          {GP1bar, vebar, ta}
+          {GP2bar, vebar, ta}
+          {H1bar, vebar, ta}
+          {H2bar, vebar, ta}
+          {GP1bar, vmbar, e}
+          {GP2bar, vmbar, e}
+          {H1bar, vmbar, e}
+          {H2bar, vmbar, e}
+          {GP1bar, vmbar, m}
+          {GP2bar, vmbar, m}
+          {H1bar, vmbar, m}
+          {H2bar, vmbar, m}
+          {GP1bar, vmbar, ta}
+          {GP2bar, vmbar, ta}
+          {H1bar, vmbar, ta}
+          {H2bar, vmbar, ta}
+          {GP1bar, vtbar, e}
+          {GP2bar, vtbar, e}
+          {H1bar, vtbar, e}
+          {H2bar, vtbar, e}
+          {GP1bar, vtbar, m}
+          {GP2bar, vtbar, m}
+          {H1bar, vtbar, m}
+          {H2bar, vtbar, m}
+          {GP1bar, vtbar, ta}
+          {GP2bar, vtbar, ta}
+          {H1bar, vtbar, ta}
+          {H2bar, vtbar, ta}
+          {GP1, ebar, Ne}
+          {GP2, ebar, Ne}
+          {H1, ebar, Ne}
+          {H2, ebar, Ne}
+          {GP1, ebar, Nm}
+          {GP2, ebar, Nm}
+          {H1, ebar, Nm}
+          {H2, ebar, Nm}
+          {GP1, ebar, Nt}
+          {GP2, ebar, Nt}
+          {H1, ebar, Nt}
+          {H2, ebar, Nt}
+          {GP1, ebar, ve}
+          {GP2, ebar, ve}
+          {H1, ebar, ve}
+          {H2, ebar, ve}
+          {GP1, ebar, vm}
+          {GP2, ebar, vm}
+          {H1, ebar, vm}
+          {H2, ebar, vm}
+          {GP1, ebar, vt}
+          {GP2, ebar, vt}
+          {H1, ebar, vt}
+          {H2, ebar, vt}
+          {GP1bar, Ne, e}
+          {GP2bar, Ne, e}
+          {H1bar, Ne, e}
+          {H2bar, Ne, e}
+          {GP1bar, Nm, e}
+          {GP2bar, Nm, e}
+          {H1bar, Nm, e}
+          {H2bar, Nm, e}
+          {GP1bar, Nt, e}
+          {GP2bar, Nt, e}
+          {H1bar, Nt, e}
+          {H2bar, Nt, e}
+          {GP1bar, ve, e}
+          {GP2bar, ve, e}
+          {H1bar, ve, e}
+          {H2bar, ve, e}
+          {GP1bar, vm, e}
+          {GP2bar, vm, e}
+          {H1bar, vm, e}
+          {H2bar, vm, e}
+          {GP1bar, vt, e}
+          {GP2bar, vt, e}
+          {H1bar, vt, e}
+          {H2bar, vt, e}
+          {GP1bar, Ne, m}
+          {GP2bar, Ne, m}
+          {H1bar, Ne, m}
+          {H2bar, Ne, m}
+          {GP1bar, Nm, m}
+          {GP2bar, Nm, m}
+          {H1bar, Nm, m}
+          {H2bar, Nm, m}
+          {GP1bar, Nt, m}
+          {GP2bar, Nt, m}
+          {H1bar, Nt, m}
+          {H2bar, Nt, m}
+          {GP1bar, ve, m}
+          {GP2bar, ve, m}
+          {H1bar, ve, m}
+          {H2bar, ve, m}
+          {GP1bar, vm, m}
+          {GP2bar, vm, m}
+          {H1bar, vm, m}
+          {H2bar, vm, m}
+          {GP1bar, vt, m}
+          {GP2bar, vt, m}
+          {H1bar, vt, m}
+          {H2bar, vt, m}
+          {GP1bar, Ne, ta}
+          {GP2bar, Ne, ta}
+          {H1bar, Ne, ta}
+          {H2bar, Ne, ta}
+          {GP1bar, Nm, ta}
+          {GP2bar, Nm, ta}
+          {H1bar, Nm, ta}
+          {H2bar, Nm, ta}
+          {GP1bar, Nt, ta}
+          {GP2bar, Nt, ta}
+          {H1bar, Nt, ta}
+          {H2bar, Nt, ta}
+          {GP1bar, ve, ta}
+          {GP2bar, ve, ta}
+          {H1bar, ve, ta}
+          {H2bar, ve, ta}
+          {GP1bar, vm, ta}
+          {GP2bar, vm, ta}
+          {H1bar, vm, ta}
+          {H2bar, vm, ta}
+          {GP1bar, vt, ta}
+          {GP2bar, vt, ta}
+          {H1bar, vt, ta}
+          {H2bar, vt, ta}
+          {GP1, mbar, Ne}
+          {GP2, mbar, Ne}
+          {H1, mbar, Ne}
+          {H2, mbar, Ne}
+          {GP1, mbar, Nm}
+          {GP2, mbar, Nm}
+          {H1, mbar, Nm}
+          {H2, mbar, Nm}
+          {GP1, mbar, Nt}
+          {GP2, mbar, Nt}
+          {H1, mbar, Nt}
+          {H2, mbar, Nt}
+          {GP1, mbar, ve}
+          {GP2, mbar, ve}
+          {H1, mbar, ve}
+          {H2, mbar, ve}
+          {GP1, mbar, vm}
+          {GP2, mbar, vm}
+          {H1, mbar, vm}
+          {H2, mbar, vm}
+          {GP1, mbar, vt}
+          {GP2, mbar, vt}
+          {H1, mbar, vt}
+          {H2, mbar, vt}
+          {GP1, tabar, Ne}
+          {GP2, tabar, Ne}
+          {H1, tabar, Ne}
+          {H2, tabar, Ne}
+          {GP1, tabar, Nm}
+          {GP2, tabar, Nm}
+          {H1, tabar, Nm}
+          {H2, tabar, Nm}
+          {GP1, tabar, Nt}
+          {GP2, tabar, Nt}
+          {H1, tabar, Nt}
+          {H2, tabar, Nt}
+          {GP1, tabar, ve}
+          {GP2, tabar, ve}
+          {H1, tabar, ve}
+          {H2, tabar, ve}
+          {GP1, tabar, vm}
+          {GP2, tabar, vm}
+          {H1, tabar, vm}
+          {H2, tabar, vm}
+          {GP1, tabar, vt}
+          {GP2, tabar, vt}
+          {H1, tabar, vt}
+          {H2, tabar, vt}
+      - Quantum number YBL conserved in all vertices.
+   * particles.py written.
+   * parameters.py written.
+#
+# Vertex definitions
+#
+
+   * 4711 vertices written.
+   * vertices.py written.
+#
+# Lorentz structure definitions
+#
+
+   * 17 lorentz structures written.
+   * lorentz.py written.
+#
+# Coupling definitions
+#
+
+   >>>> Non positive interaction order QED found for coupling GC_458.
+   >>>> Non positive interaction order QED found for coupling GC_459.
+   >>>> Non positive interaction order QED found for coupling GC_460.
+   >>>> Non positive interaction order QED found for coupling GC_466.
+   >>>> Non positive interaction order QED found for coupling GC_467.
+   >>>> Non positive interaction order QED found for coupling GC_468.
+   >>>> Non positive interaction order QED found for coupling GC_477.
+   >>>> Non positive interaction order QED found for coupling GC_478.
+   >>>> Non positive interaction order QED found for coupling GC_479.
+   >>>> Non positive interaction order QED found for coupling GC_491.
+   >>>> Non positive interaction order QED found for coupling GC_492.
+   >>>> Non positive interaction order QED found for coupling GC_493.
+   >>>> Non positive interaction order QED found for coupling GC_506.
+   >>>> Non positive interaction order QED found for coupling GC_507.
+   >>>> Non positive interaction order QED found for coupling GC_581.
+   >>>> Non positive interaction order QED found for coupling GC_582.
+   >>>> Non positive interaction order QED found for coupling GC_583.
+   >>>> Non positive interaction order QED found for coupling GC_584.
+   >>>> Non positive interaction order QED found for coupling GC_591.
+   >>>> Non positive interaction order QED found for coupling GC_592.
+   >>>> Non positive interaction order QED found for coupling GC_593.
+   >>>> Non positive interaction order QED found for coupling GC_594.
+   >>>> Non positive interaction order QED found for coupling GC_605.
+   >>>> Non positive interaction order QED found for coupling GC_606.
+   >>>> Non positive interaction order QED found for coupling GC_607.
+   >>>> Non positive interaction order QED found for coupling GC_608.
+   >>>> Non positive interaction order QED found for coupling GC_623.
+   >>>> Non positive interaction order QED found for coupling GC_624.
+   >>>> Non positive interaction order QED found for coupling GC_625.
+   >>>> Non positive interaction order QED found for coupling GC_626.
+   >>>> Non positive interaction order QED found for coupling GC_643.
+   >>>> Non positive interaction order QED found for coupling GC_644.
+   >>>> Non positive interaction order QED found for coupling GC_662.
+   >>>> Non positive interaction order QED found for coupling GC_663.
+   >>>> Non positive interaction order QED found for coupling GC_741.
+   >>>> Non positive interaction order QED found for coupling GC_742.
+   >>>> Non positive interaction order QED found for coupling GC_743.
+   >>>> Non positive interaction order QED found for coupling GC_744.
+   >>>> Non positive interaction order QED found for coupling GC_751.
+   >>>> Non positive interaction order QED found for coupling GC_752.
+   >>>> Non positive interaction order QED found for coupling GC_753.
+   >>>> Non positive interaction order QED found for coupling GC_754.
+   >>>> Non positive interaction order QED found for coupling GC_765.
+   >>>> Non positive interaction order QED found for coupling GC_766.
+   >>>> Non positive interaction order QED found for coupling GC_767.
+   >>>> Non positive interaction order QED found for coupling GC_768.
+   >>>> Non positive interaction order QED found for coupling GC_783.
+   >>>> Non positive interaction order QED found for coupling GC_784.
+   >>>> Non positive interaction order QED found for coupling GC_785.
+   >>>> Non positive interaction order QED found for coupling GC_786.
+   >>>> Non positive interaction order QED found for coupling GC_803.
+   >>>> Non positive interaction order QED found for coupling GC_804.
+   >>>> Non positive interaction order QED found for coupling GC_822.
+   >>>> Non positive interaction order QED found for coupling GC_823.
+   >>>> Non positive interaction order QED found for coupling GC_845.
+   >>>> Non positive interaction order QED found for coupling GC_846.
+   >>>> Non positive interaction order QED found for coupling GC_924.
+   >>>> Non positive interaction order QED found for coupling GC_925.
+   >>>> Non positive interaction order QED found for coupling GC_926.
+   >>>> Non positive interaction order QED found for coupling GC_927.
+   >>>> Non positive interaction order QED found for coupling GC_928.
+   >>>> Non positive interaction order QED found for coupling GC_936.
+   >>>> Non positive interaction order QED found for coupling GC_937.
+   >>>> Non positive interaction order QED found for coupling GC_938.
+   >>>> Non positive interaction order QED found for coupling GC_939.
+   >>>> Non positive interaction order QED found for coupling GC_940.
+   >>>> Non positive interaction order QED found for coupling GC_953.
+   >>>> Non positive interaction order QED found for coupling GC_954.
+   >>>> Non positive interaction order QED found for coupling GC_955.
+   >>>> Non positive interaction order QED found for coupling GC_956.
+   >>>> Non positive interaction order QED found for coupling GC_957.
+   >>>> Non positive interaction order QED found for coupling GC_975.
+   >>>> Non positive interaction order QED found for coupling GC_976.
+   >>>> Non positive interaction order QED found for coupling GC_977.
+   >>>> Non positive interaction order QED found for coupling GC_978.
+   >>>> Non positive interaction order QED found for coupling GC_979.
+   >>>> Non positive interaction order QED found for coupling GC_1000.
+   >>>> Non positive interaction order QED found for coupling GC_1001.
+   >>>> Non positive interaction order QED found for coupling GC_1022.
+   >>>> Non positive interaction order QED found for coupling GC_1023.
+   >>>> Non positive interaction order QED found for coupling GC_1049.
+   >>>> Non positive interaction order QED found for coupling GC_1050.
+   >>>> Non positive interaction order QED found for coupling GC_1076.
+   >>>> Non positive interaction order QED found for coupling GC_1077.
+   >>>> Non positive interaction order QED found for coupling GC_1119.
+   >>>> Non positive interaction order QED found for coupling GC_1120.
+   >>>> Non positive interaction order QED found for coupling GC_1121.
+   >>>> Non positive interaction order QED found for coupling GC_1122.
+   >>>> Non positive interaction order QED found for coupling GC_1123.
+   >>>> Non positive interaction order QED found for coupling GC_1124.
+   >>>> Non positive interaction order QED found for coupling GC_1125.
+   >>>> Non positive interaction order QED found for coupling GC_1126.
+   >>>> Non positive interaction order QED found for coupling GC_1127.
+   >>>> Non positive interaction order QED found for coupling GC_1128.
+   >>>> Non positive interaction order QED found for coupling GC_1231.
+   >>>> Non positive interaction order QED found for coupling GC_1232.
+   >>>> Non positive interaction order QED found for coupling GC_1233.
+   >>>> Non positive interaction order QED found for coupling GC_1234.
+   >>>> Non positive interaction order QED found for coupling GC_1235.
+   >>>> Non positive interaction order QED found for coupling GC_1236.
+   >>>> Non positive interaction order QED found for coupling GC_1237.
+   >>>> Non positive interaction order QED found for coupling GC_1238.
+   >>>> Non positive interaction order QED found for coupling GC_1239.
+   >>>> Non positive interaction order QED found for coupling GC_1240.
+   >>>> Non positive interaction order QED found for coupling GC_1390.
+   >>>> Non positive interaction order QED found for coupling GC_1391.
+   >>>> Non positive interaction order QED found for coupling GC_1419.
+   >>>> Non positive interaction order QED found for coupling GC_1420.
+   >>>> Non positive interaction order QED found for coupling GC_1421.
+   >>>> Non positive interaction order QED found for coupling GC_1422.
+   >>>> Non positive interaction order QED found for coupling GC_1423.
+   >>>> Non positive interaction order QED found for coupling GC_1424.
+   >>>> Non positive interaction order QED found for coupling GC_1425.
+   >>>> Non positive interaction order QED found for coupling GC_1426.
+   >>>> Non positive interaction order QED found for coupling GC_1427.
+   >>>> Non positive interaction order QED found for coupling GC_1428.
+   >>>> Non positive interaction order QED found for coupling GC_1431.
+   >>>> Non positive interaction order QED found for coupling GC_1432.
+   >>>> Non positive interaction order QED found for coupling GC_1433.
+   >>>> Non positive interaction order QED found for coupling GC_1450.
+   >>>> Non positive interaction order QED found for coupling GC_1451.
+   >>>> Non positive interaction order QED found for coupling GC_1452.
+   >>>> Non positive interaction order QED found for coupling GC_1453.
+   >>>> Non positive interaction order QED found for coupling GC_1476.
+   >>>> Non positive interaction order QED found for coupling GC_1477.
+   >>>> Non positive interaction order QED found for coupling GC_1478.
+   >>>> Non positive interaction order QED found for coupling GC_1479.
+   >>>> Non positive interaction order QED found for coupling GC_1504.
+   >>>> Non positive interaction order QED found for coupling GC_1505.
+   >>>> Non positive interaction order QED found for coupling GC_1506.
+   >>>> Non positive interaction order QED found for coupling GC_1507.
+   >>>> Non positive interaction order QED found for coupling GC_1508.
+   >>>> Non positive interaction order QED found for coupling GC_1547.
+   >>>> Non positive interaction order QED found for coupling GC_1558.
+   >>>> Non positive interaction order QED found for coupling GC_1589.
+   >>>> Non positive interaction order QED found for coupling GC_1597.
+   >>>> Non positive interaction order QED found for coupling GC_1598.
+   >>>> Non positive interaction order QED found for coupling GC_1626.
+   >>>> Non positive interaction order QED found for coupling GC_1627.
+   >>>> Non positive interaction order QED found for coupling GC_1628.
+   >>>> Non positive interaction order QED found for coupling GC_1629.
+   >>>> Non positive interaction order QED found for coupling GC_1630.
+   >>>> Non positive interaction order QED found for coupling GC_1631.
+   >>>> Non positive interaction order QED found for coupling GC_1632.
+   >>>> Non positive interaction order QED found for coupling GC_1633.
+   >>>> Non positive interaction order QED found for coupling GC_1634.
+   >>>> Non positive interaction order QED found for coupling GC_1635.
+   >>>> Non positive interaction order QED found for coupling GC_1638.
+   >>>> Non positive interaction order QED found for coupling GC_1639.
+   >>>> Non positive interaction order QED found for coupling GC_1640.
+   >>>> Non positive interaction order QED found for coupling GC_1657.
+   >>>> Non positive interaction order QED found for coupling GC_1658.
+   >>>> Non positive interaction order QED found for coupling GC_1659.
+   >>>> Non positive interaction order QED found for coupling GC_1660.
+   >>>> Non positive interaction order QED found for coupling GC_1683.
+   >>>> Non positive interaction order QED found for coupling GC_1684.
+   >>>> Non positive interaction order QED found for coupling GC_1685.
+   >>>> Non positive interaction order QED found for coupling GC_1686.
+   >>>> Non positive interaction order QED found for coupling GC_1711.
+   >>>> Non positive interaction order QED found for coupling GC_1712.
+   >>>> Non positive interaction order QED found for coupling GC_1713.
+   >>>> Non positive interaction order QED found for coupling GC_1714.
+   >>>> Non positive interaction order QED found for coupling GC_1715.
+   >>>> Non positive interaction order QED found for coupling GC_1754.
+   >>>> Non positive interaction order QED found for coupling GC_1765.
+   >>>> Non positive interaction order QED found for coupling GC_1796.
+   >>>> Non positive interaction order QED found for coupling GC_1828.
+   >>>> Non positive interaction order QED found for coupling GC_1830.
+   >>>> Non positive interaction order QED found for coupling GC_1839.
+   >>>> Non positive interaction order QED found for coupling GC_1840.
+   >>>> Non positive interaction order QED found for coupling GC_1868.
+   >>>> Non positive interaction order QED found for coupling GC_1869.
+   >>>> Non positive interaction order QED found for coupling GC_1870.
+   >>>> Non positive interaction order QED found for coupling GC_1871.
+   >>>> Non positive interaction order QED found for coupling GC_1872.
+   >>>> Non positive interaction order QED found for coupling GC_1873.
+   >>>> Non positive interaction order QED found for coupling GC_1874.
+   >>>> Non positive interaction order QED found for coupling GC_1875.
+   >>>> Non positive interaction order QED found for coupling GC_1876.
+   >>>> Non positive interaction order QED found for coupling GC_1877.
+   >>>> Non positive interaction order QED found for coupling GC_1880.
+   >>>> Non positive interaction order QED found for coupling GC_1881.
+   >>>> Non positive interaction order QED found for coupling GC_1882.
+   >>>> Non positive interaction order QED found for coupling GC_1899.
+   >>>> Non positive interaction order QED found for coupling GC_1900.
+   >>>> Non positive interaction order QED found for coupling GC_1901.
+   >>>> Non positive interaction order QED found for coupling GC_1902.
+   >>>> Non positive interaction order QED found for coupling GC_1925.
+   >>>> Non positive interaction order QED found for coupling GC_1926.
+   >>>> Non positive interaction order QED found for coupling GC_1927.
+   >>>> Non positive interaction order QED found for coupling GC_1928.
+   >>>> Non positive interaction order QED found for coupling GC_1953.
+   >>>> Non positive interaction order QED found for coupling GC_1954.
+   >>>> Non positive interaction order QED found for coupling GC_1955.
+   >>>> Non positive interaction order QED found for coupling GC_1956.
+   >>>> Non positive interaction order QED found for coupling GC_1957.
+   >>>> Non positive interaction order QED found for coupling GC_1996.
+   >>>> Non positive interaction order QED found for coupling GC_2007.
+   >>>> Non positive interaction order QED found for coupling GC_2038.
+   >>>> Non positive interaction order QED found for coupling GC_2070.
+   >>>> Non positive interaction order QED found for coupling GC_2072.
+   >>>> Non positive interaction order QED found for coupling GC_2105.
+   >>>> Non positive interaction order QED found for coupling GC_2107.
+   >>>> Non positive interaction order QED found for coupling GC_2110.
+   >>>> Non positive interaction order QED found for coupling GC_2120.
+   >>>> Non positive interaction order QED found for coupling GC_2121.
+   >>>> Non positive interaction order QED found for coupling GC_2149.
+   >>>> Non positive interaction order QED found for coupling GC_2150.
+   >>>> Non positive interaction order QED found for coupling GC_2151.
+   >>>> Non positive interaction order QED found for coupling GC_2152.
+   >>>> Non positive interaction order QED found for coupling GC_2153.
+   >>>> Non positive interaction order QED found for coupling GC_2154.
+   >>>> Non positive interaction order QED found for coupling GC_2155.
+   >>>> Non positive interaction order QED found for coupling GC_2156.
+   >>>> Non positive interaction order QED found for coupling GC_2157.
+   >>>> Non positive interaction order QED found for coupling GC_2158.
+   >>>> Non positive interaction order QED found for coupling GC_2161.
+   >>>> Non positive interaction order QED found for coupling GC_2162.
+   >>>> Non positive interaction order QED found for coupling GC_2163.
+   >>>> Non positive interaction order QED found for coupling GC_2180.
+   >>>> Non positive interaction order QED found for coupling GC_2181.
+   >>>> Non positive interaction order QED found for coupling GC_2182.
+   >>>> Non positive interaction order QED found for coupling GC_2183.
+   >>>> Non positive interaction order QED found for coupling GC_2206.
+   >>>> Non positive interaction order QED found for coupling GC_2207.
+   >>>> Non positive interaction order QED found for coupling GC_2208.
+   >>>> Non positive interaction order QED found for coupling GC_2209.
+   >>>> Non positive interaction order QED found for coupling GC_2234.
+   >>>> Non positive interaction order QED found for coupling GC_2235.
+   >>>> Non positive interaction order QED found for coupling GC_2236.
+   >>>> Non positive interaction order QED found for coupling GC_2237.
+   >>>> Non positive interaction order QED found for coupling GC_2238.
+   >>>> Non positive interaction order QED found for coupling GC_2277.
+   >>>> Non positive interaction order QED found for coupling GC_2288.
+   >>>> Non positive interaction order QED found for coupling GC_2319.
+   >>>> Non positive interaction order QED found for coupling GC_2351.
+   >>>> Non positive interaction order QED found for coupling GC_2353.
+   >>>> Non positive interaction order QED found for coupling GC_2386.
+   >>>> Non positive interaction order QED found for coupling GC_2388.
+   >>>> Non positive interaction order QED found for coupling GC_2391.
+   >>>> Non positive interaction order QED found for coupling GC_2425.
+   >>>> Non positive interaction order QED found for coupling GC_2427.
+   >>>> Non positive interaction order QED found for coupling GC_2430.
+   >>>> Non positive interaction order QED found for coupling GC_2434.
+   * 5117 couplings written.
+   * couplings.py written.
+#
+# Coupling order definitions
+#
+
+   * 0 couplings orders written.
+   * coupling_orders.py written.
+#
+# CTCoupling definitions
+#
+
+   * 0 CTcouplings written.
+   * CT_couplings.py written.

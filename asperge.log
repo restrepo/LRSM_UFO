@@ -1,0 +1,520 @@
+Constructing the parameters (Parameters.cpp line 16)
+  * SLHABlocks constructed
+  * intialize parameters
+RPar	vR	1000	FRVEVS	1 
+RPar	vL	0	FRVEVS	2 
+RPar	v1	248	FRVEVS	3 
+RPar	v1p	0	FRVEVS	4 
+RPar	aEWM1	127.9	SMINPUTS	1 
+RPar	aS	1	SMINPUTS	5 
+RPar	gR	0.646482	GAUGE	4 
+RPar	gL	0.646482	GAUGE	2 
+RPar	gY	0.360967	GAUGE	1 
+RPar	0.435109
+RPar	3.54491
+RPar	Ryq11x1	1	YQ1	1 1 
+RPar	Ryq11x2	1	YQ1	1 2 
+RPar	Ryq11x3	1	YQ1	1 3 
+RPar	Ryq12x1	1	YQ1	2 1 
+RPar	Ryq12x2	1	YQ1	2 2 
+RPar	Ryq12x3	1	YQ1	2 3 
+RPar	Ryq13x1	1	YQ1	3 1 
+RPar	Ryq13x2	1	YQ1	3 2 
+RPar	Ryq13x3	1	YQ1	3 3 
+RPar	Iyq11x1	1	IMYQ1	1 1 
+RPar	Iyq11x2	1	IMYQ1	1 2 
+RPar	Iyq11x3	1	IMYQ1	1 3 
+RPar	Iyq12x1	1	IMYQ1	2 1 
+RPar	Iyq12x2	1	IMYQ1	2 2 
+RPar	Iyq12x3	1	IMYQ1	2 3 
+RPar	Iyq13x1	1	IMYQ1	3 1 
+RPar	Iyq13x2	1	IMYQ1	3 2 
+RPar	Iyq13x3	1	IMYQ1	3 3 
+RPar	Ryq21x1	1	YQ2	1 1 
+RPar	Ryq21x2	1	YQ2	1 2 
+RPar	Ryq21x3	1	YQ2	1 3 
+RPar	Ryq22x1	1	YQ2	2 1 
+RPar	Ryq22x2	1	YQ2	2 2 
+RPar	Ryq22x3	1	YQ2	2 3 
+RPar	Ryq23x1	1	YQ2	3 1 
+RPar	Ryq23x2	1	YQ2	3 2 
+RPar	Ryq23x3	1	YQ2	3 3 
+RPar	Iyq21x1	1	IMYQ2	1 1 
+RPar	Iyq21x2	1	IMYQ2	1 2 
+RPar	Iyq21x3	1	IMYQ2	1 3 
+RPar	Iyq22x1	1	IMYQ2	2 1 
+RPar	Iyq22x2	1	IMYQ2	2 2 
+RPar	Iyq22x3	1	IMYQ2	2 3 
+RPar	Iyq23x1	1	IMYQ2	3 1 
+RPar	Iyq23x2	1	IMYQ2	3 2 
+RPar	Iyq23x3	1	IMYQ2	3 3 
+RPar	Ryl11x1	1	YL1	1 1 
+RPar	Ryl11x2	1	YL1	1 2 
+RPar	Ryl11x3	1	YL1	1 3 
+RPar	Ryl12x1	1	YL1	2 1 
+RPar	Ryl12x2	1	YL1	2 2 
+RPar	Ryl12x3	1	YL1	2 3 
+RPar	Ryl13x1	1	YL1	3 1 
+RPar	Ryl13x2	1	YL1	3 2 
+RPar	Ryl13x3	1	YL1	3 3 
+RPar	Iyl11x1	1	IMYL1	1 1 
+RPar	Iyl11x2	1	IMYL1	1 2 
+RPar	Iyl11x3	1	IMYL1	1 3 
+RPar	Iyl12x1	1	IMYL1	2 1 
+RPar	Iyl12x2	1	IMYL1	2 2 
+RPar	Iyl12x3	1	IMYL1	2 3 
+RPar	Iyl13x1	1	IMYL1	3 1 
+RPar	Iyl13x2	1	IMYL1	3 2 
+RPar	Iyl13x3	1	IMYL1	3 3 
+RPar	Ryl21x1	1	YL2	1 1 
+RPar	Ryl21x2	1	YL2	1 2 
+RPar	Ryl21x3	1	YL2	1 3 
+RPar	Ryl22x1	1	YL2	2 1 
+RPar	Ryl22x2	1	YL2	2 2 
+RPar	Ryl22x3	1	YL2	2 3 
+RPar	Ryl23x1	1	YL2	3 1 
+RPar	Ryl23x2	1	YL2	3 2 
+RPar	Ryl23x3	1	YL2	3 3 
+RPar	Iyl21x1	1	IMYL2	1 1 
+RPar	Iyl21x2	1	IMYL2	1 2 
+RPar	Iyl21x3	1	IMYL2	1 3 
+RPar	Iyl22x1	1	IMYL2	2 1 
+RPar	Iyl22x2	1	IMYL2	2 2 
+RPar	Iyl22x3	1	IMYL2	2 3 
+RPar	Iyl23x1	1	IMYL2	3 1 
+RPar	Iyl23x2	1	IMYL2	3 2 
+RPar	Iyl23x3	1	IMYL2	3 3 
+RPar	Ryl31x1	1	YL3	1 1 
+RPar	Ryl31x2	1	YL3	1 2 
+RPar	Ryl31x3	1	YL3	1 3 
+RPar	Ryl32x1	1	YL3	2 1 
+RPar	Ryl32x2	1	YL3	2 2 
+RPar	Ryl32x3	1	YL3	2 3 
+RPar	Ryl33x1	1	YL3	3 1 
+RPar	Ryl33x2	1	YL3	3 2 
+RPar	Ryl33x3	1	YL3	3 3 
+RPar	Iyl31x1	1	IMYL3	1 1 
+RPar	Iyl31x2	1	IMYL3	1 2 
+RPar	Iyl31x3	1	IMYL3	1 3 
+RPar	Iyl32x1	1	IMYL3	2 1 
+RPar	Iyl32x2	1	IMYL3	2 2 
+RPar	Iyl32x3	1	IMYL3	2 3 
+RPar	Iyl33x1	1	IMYL3	3 1 
+RPar	Iyl33x2	1	IMYL3	3 2 
+RPar	Iyl33x3	1	IMYL3	3 3 
+RPar	Ryl41x1	1	YL4	1 1 
+RPar	Ryl41x2	1	YL4	1 2 
+RPar	Ryl41x3	1	YL4	1 3 
+RPar	Ryl42x1	1	YL4	2 1 
+RPar	Ryl42x2	1	YL4	2 2 
+RPar	Ryl42x3	1	YL4	2 3 
+RPar	Ryl43x1	1	YL4	3 1 
+RPar	Ryl43x2	1	YL4	3 2 
+RPar	Ryl43x3	1	YL4	3 3 
+RPar	Iyl41x1	1	IMYL4	1 1 
+RPar	Iyl41x2	1	IMYL4	1 2 
+RPar	Iyl41x3	1	IMYL4	1 3 
+RPar	Iyl42x1	1	IMYL4	2 1 
+RPar	Iyl42x2	1	IMYL4	2 2 
+RPar	Iyl42x3	1	IMYL4	2 3 
+RPar	Iyl43x1	1	IMYL4	3 1 
+RPar	Iyl43x2	1	IMYL4	3 2 
+RPar	Iyl43x3	1	IMYL4	3 3 
+RPar	RLAM1	1	HLAM	1 
+RPar	ILAM1	1	IMHLAM	1 
+RPar	RLAM2	1	HLAM	2 
+RPar	ILAM2	1	IMHLAM	2 
+RPar	RLAM3	1	HLAM	3 
+RPar	ILAM3	1	IMHLAM	3 
+RPar	RLAM4	1	HLAM	4 
+RPar	ILAM4	1	IMHLAM	4 
+RPar	RLAM5	1	HLAM	5 
+RPar	ILAM5	1	IMHLAM	5 
+RPar	RLAM6	1	HLAM	6 
+RPar	ILAM6	1	IMHLAM	6 
+RPar	RRHO1	1	HRHO	1 
+RPar	IRHO1	1	IMRHO	1 
+RPar	RRHO2	1	HRHO	2 
+RPar	IRHO2	1	IMRHO	2 
+RPar	RRHO3	1	HRHO	3 
+RPar	IRHO3	1	IMRHO	3 
+RPar	RAL1	1	HAL	1 
+RPar	IAL1	1	IMAL	1 
+RPar	RAL2	1	HAL	2 
+RPar	IAL2	1	IMAL	2 
+RPar	RAL3	1	HAL	3 
+RPar	IAL3	1	IMAL	3 
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1,1)
+CPar	(1.12301e+06,1.12301e+06)
+CPar	(1164.3,482.268)
+CPar	(2.0615e+06,2.0615e+06)
+CPar	(1577.48,653.415)
+
+    ... initialization done
+... parameter construction done
+
+Constructing MassMatrix UVN (MassMatrix.cpp line 28)
+... UVN constructed
+
+Constructing MassMatrix UVC (MassMatrix.cpp line 28)
+... UVC constructed
+
+Constructing MassMatrix UHD (MassMatrix.cpp line 28)
+... UHD constructed
+
+Constructing MassMatrix UHC (MassMatrix.cpp line 28)
+... UHC constructed
+
+Constructing MassMatrix UHN (MassMatrix.cpp line 28)
+... UHN constructed
+
+Constructing MassMatrix UAN (MassMatrix.cpp line 28)
+... UAN constructed
+
+Constructing MassMatrix CKML (MassMatrix.cpp line 28)
+... CKML constructed
+
+Constructing MassMatrixTwoMix CKML (MassMatrixTwoMix.cpp line 31)
+... CKML constructed
+
+Constructing MassMatrix PMNSL (MassMatrix.cpp line 28)
+... PMNSL constructed
+
+Constructing MassMatrixTwoMix PMNSL (MassMatrixTwoMix.cpp line 31)
+... PMNSL constructed
+
+
+ Initialize all the massmatrices (MassMatrix.hpp line 165)
+  * UVN done
+  * UVC done
+  * UHD done
+  * UHC done
+  * UHN done
+  * UAN done
+  * CKML done
+  * PMNSL done
+
+ Initialize all the massmatrices (MassMatrix.hpp line 171)
+Mass Matrix squared UVN REAL     # 
+   1   1    6426.23    #
+   1   2    -6426.23    #
+   1   3    -0    #
+   2   1    -6426.23    #
+   2   2    424365    #
+   2   3    -281290    #
+   3   1    -0    #
+   3   2    -281290    #
+   3   3    189319    #
+Mass Matrix squared UVN IMAG     # 
+   1   1    0    #
+   1   2    0    #
+   1   3    0    #
+   2   1    0    #
+   2   2    0    #
+   2   3    0    #
+   3   1    0    #
+   3   2    0    #
+   3   3    0    #
+Mass Matrix squared UVC REAL     # 
+   1   1    6426.23    #
+   1   2    -0    #
+   2   1    -0    #
+   2   2    215396    #
+Mass Matrix squared UVC IMAG     # 
+   1   1    0    #
+   1   2    0    #
+   2   1    0    #
+   2   2    0    #
+Mass Matrix squared UHD REAL     # 
+   1   1    -1.5e+06    #
+   1   2    0    #
+   2   1    0    #
+   2   2    -1e+06    #
+Mass Matrix squared UHD IMAG     # 
+   1   1    -1.5e+06    #
+   1   2    0    #
+   2   1    0    #
+   2   2    -1e+06    #
+Mass Matrix squared UHC REAL     # 
+   1   1    -1.5e+06    #
+   1   2    0    #
+   1   3    0    #
+   1   4    0    #
+   2   1    0    #
+   2   2    0    #
+   2   3    0    #
+   2   4    0    #
+   3   1    0    #
+   3   2    0    #
+   3   3    0    #
+   3   4    0    #
+   4   1    0    #
+   4   2    0    #
+   4   3    0    #
+   4   4    0    #
+Mass Matrix squared UHC IMAG     # 
+   1   1    -1.5e+06    #
+   1   2    0    #
+   1   3    0    #
+   1   4    0    #
+   2   1    0    #
+   2   2    0    #
+   2   3    0    #
+   2   4    0    #
+   3   1    0    #
+   3   2    0    #
+   3   3    0    #
+   3   4    0    #
+   4   1    0    #
+   4   2    0    #
+   4   3    0    #
+   4   4    0    #
+Mass Matrix squared UHN REAL     # 
+   1   1    -1.5e+06    #
+   1   2    0    #
+   1   3    0    #
+   1   4    0    #
+   2   1    0    #
+   2   2    4e+06    #
+   2   3    496000    #
+   2   4    0    #
+   3   1    0    #
+   3   2    496000    #
+   3   3    246016    #
+   3   4    0    #
+   4   1    0    #
+   4   2    0    #
+   4   3    0    #
+   4   4    307520    #
+Mass Matrix squared UHN IMAG     # 
+   1   1    -1.5e+06    #
+   1   2    0    #
+   1   3    0    #
+   1   4    0    #
+   2   1    0    #
+   2   2    4e+06    #
+   2   3    496000    #
+   2   4    0    #
+   3   1    0    #
+   3   2    496000    #
+   3   3    246016    #
+   3   4    0    #
+   4   1    0    #
+   4   2    0    #
+   4   3    0    #
+   4   4    307520    #
+Mass Matrix squared UAN REAL     # 
+   1   1    -1.5e+06    #
+   1   2    0    #
+   1   3    0    #
+   1   4    0    #
+   2   1    0    #
+   2   2    0    #
+   2   3    0    #
+   2   4    0    #
+   3   1    0    #
+   3   2    0    #
+   3   3    0    #
+   3   4    -0    #
+   4   1    0    #
+   4   2    0    #
+   4   3    -0    #
+   4   4    -307520    #
+Mass Matrix squared UAN IMAG     # 
+   1   1    -1.5e+06    #
+   1   2    0    #
+   1   3    0    #
+   1   4    0    #
+   2   1    0    #
+   2   2    0    #
+   2   3    0    #
+   2   4    0    #
+   3   1    0    #
+   3   2    0    #
+   3   3    0    #
+   3   4    -0    #
+   4   1    0    #
+   4   2    0    #
+   4   3    -0    #
+   4   4    -307520    #
+Mass Matrix squared CKML REAL     # 
+   1   1    0    #
+   1   2    0    #
+   1   3    0    #
+   2   1    0    #
+   2   2    0    #
+   2   3    0    #
+   3   1    0    #
+   3   2    0    #
+   3   3    0    #
+Mass Matrix squared CKML IMAG     # 
+   1   1    0    #
+   1   2    0    #
+   1   3    0    #
+   2   1    0    #
+   2   2    0    #
+   2   3    0    #
+   3   1    0    #
+   3   2    0    #
+   3   3    0    #
+Mass Matrix squared PMNSL REAL     # 
+   1   1    184512    #
+   1   2    184512    #
+   1   3    184512    #
+   1   4    0    #
+   1   5    0    #
+   1   6    0    #
+   2   1    184512    #
+   2   2    184512    #
+   2   3    184512    #
+   2   4    0    #
+   2   5    0    #
+   2   6    0    #
+   3   1    184512    #
+   3   2    184512    #
+   3   3    184512    #
+   3   4    0    #
+   3   5    0    #
+   3   6    0    #
+   4   1    0    #
+   4   2    0    #
+   4   3    0    #
+   4   4    3e+06    #
+   4   5    3e+06    #
+   4   6    3e+06    #
+   5   1    0    #
+   5   2    0    #
+   5   3    0    #
+   5   4    3e+06    #
+   5   5    3e+06    #
+   5   6    3e+06    #
+   6   1    0    #
+   6   2    0    #
+   6   3    0    #
+   6   4    3e+06    #
+   6   5    3e+06    #
+   6   6    3e+06    #
+Mass Matrix squared PMNSL IMAG     # 
+   1   1    0    #
+   1   2    0    #
+   1   3    0    #
+   1   4    -744000    #
+   1   5    -744000    #
+   1   6    -744000    #
+   2   1    0    #
+   2   2    0    #
+   2   3    0    #
+   2   4    -744000    #
+   2   5    -744000    #
+   2   6    -744000    #
+   3   1    0    #
+   3   2    0    #
+   3   3    0    #
+   3   4    -744000    #
+   3   5    -744000    #
+   3   6    -744000    #
+   4   1    744000    #
+   4   2    744000    #
+   4   3    744000    #
+   4   4    0    #
+   4   5    0    #
+   4   6    0    #
+   5   1    744000    #
+   5   2    744000    #
+   5   3    744000    #
+   5   4    0    #
+   5   5    0    #
+   5   6    0    #
+   6   1    744000    #
+   6   2    744000    #
+   6   3    744000    #
+   6   4    0    #
+   6   5    0    #
+   6   6    0    #
+... initialization done
+
+Diagonalize the massmatrices (MassMatrix.hpp line 177)
+  * UVN done
+  * UVC done
+  * UHD done
+  * UHC done
+  * UHN done
+  * UAN done
+  * CKML done
+  * PMNSL done
+... diagonalization done
+
+Generating the output (MassMatrix.hpp line 183)
+  * header printed (MassMatrix.hpp line 192)
+    update parameters (Par.hpp line 96 function called from Parameters::printParameters)
+    ... parameters updated (Par.hpp line 109)
+  * parameters printed (MassMatrix.hpp line 198)
+  * mass printed (MassMatrix.hpp line 204)
+  * mixings printed (MassMatrix.hpp line 210)
+... output generated
+
