@@ -1,0 +1,15 @@
+Compiled UFO files of FeynRUles implementation of Left-Right symmetric model from arXiv:1401.3345 with ASperGe (arxiv:1301.5932)
+
+https://feynrules.irmp.ucl.ac.be/wiki/ASperGe
+
+The notebook to generate de UFO files is LRSM.nb
+
+To recompile:
+$ make clean
+$ make ASperGe
+
+the ASperGe bynary and the lib/lib.a will be creted.
+
+
+WARNING: UFO files were genereated with AddDecays -> False
+
